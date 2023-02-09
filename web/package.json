@@ -1,0 +1,33 @@
+{
+  "name": "WeddingProfileSample",
+  "version": "1.0.0",
+  "description": "wedding_profile_sample",
+  "author": "k.tamaki",
+  "private": true,
+  "scripts": {
+    "dev": "NUXT_HOST=0.0.0.0 NUXT_PORT=3100 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "@nuxtjs/vuetify": "^1.9.1",
+    "material-design-icons-iconfont": "^5.0.1",
+    "nuxt": "^2.0.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "@mdi/font": "^4.0.96"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
