@@ -82,11 +82,9 @@ export default {
     }
   },
   router: {
-    base: '/wedding-profile-sample/web/',
-    middleware: ['trailingslash'],
-    trailingSlash: true
+    base: '/wedding-profile-sample/'
   },
   generate: {
-    dir: 'docs'
+    dir: 'web/docs'
   }
 }
