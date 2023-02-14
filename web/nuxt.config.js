@@ -85,6 +85,6 @@ export default {
     base: '/wedding-profile-sample/'
   },
   generate: {
-    dir: 'web/docs'
+    dir: 'docs'
   }
 }
